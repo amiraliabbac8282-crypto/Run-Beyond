@@ -1,9 +1,9 @@
 import asyncio
 from telegram import Update
-from telegram.ext import Application, MessageHandler, ContextTypes, filters
+from telegram.ext import Application, MessageHandler, ContextTypes, filter
+import os
 
-TOKEN = "YOUR_TOKEN"
-
+TOKEN = os.getenv("BOT_TOKEN")
 TALK_BEYOND = 372
 RUNNING = 155
 IMAGES = 238
