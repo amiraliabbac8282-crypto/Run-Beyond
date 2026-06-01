@@ -4,9 +4,9 @@ from telegram.ext import Application, MessageHandler, ContextTypes, filters
 
 TOKEN = "YOUR_TOKEN"
 
-TALK_BEYOND = 10
-RUNNING = 11
-IMAGES = 12
+TALK_BEYOND = 372
+RUNNING = 155
+IMAGES = 238
 
 
 async def is_admin(update, context):
